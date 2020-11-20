@@ -1,0 +1,20 @@
+//
+//  ViewController.swift
+//  CustomDialogStoryboardExample
+//
+//  Created by Alexandre Oliveira on 19/11/20.
+//  Copyright © 2020 Alexandre Oliveira. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
