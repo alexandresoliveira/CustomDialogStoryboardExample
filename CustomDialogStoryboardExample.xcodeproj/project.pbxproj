@@ -15,6 +15,12 @@
 		938EFE5825673E9600FC0969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE5625673E9600FC0969 /* LaunchScreen.storyboard */; };
 		938EFE6325673E9700FC0969 /* CustomDialogStoryboardExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE6225673E9700FC0969 /* CustomDialogStoryboardExampleTests.swift */; };
 		938EFE6E25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE6D25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift */; };
+		938EFE7E2567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
+		938EFE7F2567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
+		938EFE802567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
+		938EFE822567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
+		938EFE832567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
+		938EFE842567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		938EFE6925673E9700FC0969 /* CustomDialogStoryboardExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialogStoryboardExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EFE6D25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogStoryboardExampleUITests.swift; sourceTree = "<group>"; };
 		938EFE6F25673E9700FC0969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938EFE7D2567404C00FC0969 /* BaseDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDialog.xib; sourceTree = "<group>"; };
+		938EFE812567405D00FC0969 /* BaseDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		938EFE4A25673E9100FC0969 /* CustomDialogStoryboardExample */ = {
 			isa = PBXGroup;
 			children = (
+				938EFE7B25673FFB00FC0969 /* Dialogs */,
 				938EFE4B25673E9100FC0969 /* AppDelegate.swift */,
 				938EFE4D25673E9100FC0969 /* SceneDelegate.swift */,
 				938EFE4F25673E9100FC0969 /* ViewController.swift */,
@@ -126,6 +135,15 @@
 				938EFE6F25673E9700FC0969 /* Info.plist */,
 			);
 			path = CustomDialogStoryboardExampleUITests;
+			sourceTree = "<group>";
+		};
+		938EFE7B25673FFB00FC0969 /* Dialogs */ = {
+			isa = PBXGroup;
+			children = (
+				938EFE7D2567404C00FC0969 /* BaseDialog.xib */,
+				938EFE812567405D00FC0969 /* BaseDialog.swift */,
+			);
+			path = Dialogs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +252,7 @@
 			files = (
 				938EFE5825673E9600FC0969 /* LaunchScreen.storyboard in Resources */,
 				938EFE5525673E9600FC0969 /* Assets.xcassets in Resources */,
+				938EFE7E2567404C00FC0969 /* BaseDialog.xib in Resources */,
 				938EFE5325673E9100FC0969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938EFE7F2567404C00FC0969 /* BaseDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938EFE802567404C00FC0969 /* BaseDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +282,7 @@
 			files = (
 				938EFE5025673E9100FC0969 /* ViewController.swift in Sources */,
 				938EFE4C25673E9100FC0969 /* AppDelegate.swift in Sources */,
+				938EFE822567405D00FC0969 /* BaseDialog.swift in Sources */,
 				938EFE4E25673E9100FC0969 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938EFE832567405D00FC0969 /* BaseDialog.swift in Sources */,
 				938EFE6325673E9700FC0969 /* CustomDialogStoryboardExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938EFE842567405D00FC0969 /* BaseDialog.swift in Sources */,
 				938EFE6E25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
