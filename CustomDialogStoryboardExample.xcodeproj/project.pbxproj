@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2213C5583883F931A347F4DF /* Pods_CustomDialogStoryboardExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 209DA8C74CF0813493A08D6E /* Pods_CustomDialogStoryboardExample.framework */; };
+		79B8FA36F85B8AB15D9DAD25 /* Pods_CustomDialogStoryboardExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71DCD5CC405911FEDBA0229 /* Pods_CustomDialogStoryboardExampleTests.framework */; };
 		938EFE4C25673E9100FC0969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE4B25673E9100FC0969 /* AppDelegate.swift */; };
 		938EFE4E25673E9100FC0969 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE4D25673E9100FC0969 /* SceneDelegate.swift */; };
 		938EFE5025673E9100FC0969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE4F25673E9100FC0969 /* ViewController.swift */; };
@@ -15,12 +17,10 @@
 		938EFE5825673E9600FC0969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE5625673E9600FC0969 /* LaunchScreen.storyboard */; };
 		938EFE6325673E9700FC0969 /* CustomDialogStoryboardExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE6225673E9700FC0969 /* CustomDialogStoryboardExampleTests.swift */; };
 		938EFE6E25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE6D25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift */; };
-		938EFE7E2567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
-		938EFE7F2567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
-		938EFE802567404C00FC0969 /* BaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938EFE7D2567404C00FC0969 /* BaseDialog.xib */; };
 		938EFE822567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
 		938EFE832567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
 		938EFE842567405D00FC0969 /* BaseDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938EFE812567405D00FC0969 /* BaseDialog.swift */; };
+		B888FCD96D185BC381605E39 /* Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6EE07FECD1C301CAAD7471 /* Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		209DA8C74CF0813493A08D6E /* Pods_CustomDialogStoryboardExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDialogStoryboardExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E768D1B1EADCA8029754469 /* Pods-CustomDialogStoryboardExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExample.debug.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExample/Pods-CustomDialogStoryboardExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6F2AF59AFFCDEA16BF2B4A /* Pods-CustomDialogStoryboardExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExample.release.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExample/Pods-CustomDialogStoryboardExample.release.xcconfig"; sourceTree = "<group>"; };
+		64FAD5B0D63CBC2F3FD1DB41 /* Pods-CustomDialogStoryboardExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExampleTests.release.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExampleTests/Pods-CustomDialogStoryboardExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		91CDB691F86D69CC11141D04 /* Pods-CustomDialogStoryboardExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExampleTests/Pods-CustomDialogStoryboardExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		938EFE4825673E9100FC0969 /* CustomDialogStoryboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDialogStoryboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EFE4B25673E9100FC0969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938EFE4D25673E9100FC0969 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +60,11 @@
 		938EFE6925673E9700FC0969 /* CustomDialogStoryboardExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomDialogStoryboardExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		938EFE6D25673E9700FC0969 /* CustomDialogStoryboardExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDialogStoryboardExampleUITests.swift; sourceTree = "<group>"; };
 		938EFE6F25673E9700FC0969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		938EFE7D2567404C00FC0969 /* BaseDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseDialog.xib; sourceTree = "<group>"; };
 		938EFE812567405D00FC0969 /* BaseDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDialog.swift; sourceTree = "<group>"; };
+		CA6EE07FECD1C301CAAD7471 /* Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC23FADA90EE6C75B40C079D /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests/Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE4CCAC36F415B270A947205 /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests/Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E71DCD5CC405911FEDBA0229 /* Pods_CustomDialogStoryboardExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomDialogStoryboardExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2213C5583883F931A347F4DF /* Pods_CustomDialogStoryboardExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B8FA36F85B8AB15D9DAD25 /* Pods_CustomDialogStoryboardExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B888FCD96D185BC381605E39 /* Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40F759DDBE79447C0D9B8719 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				209DA8C74CF0813493A08D6E /* Pods_CustomDialogStoryboardExample.framework */,
+				CA6EE07FECD1C301CAAD7471 /* Pods_CustomDialogStoryboardExample_CustomDialogStoryboardExampleUITests.framework */,
+				E71DCD5CC405911FEDBA0229 /* Pods_CustomDialogStoryboardExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		938EFE3F25673E9000FC0969 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +112,8 @@
 				938EFE6125673E9700FC0969 /* CustomDialogStoryboardExampleTests */,
 				938EFE6C25673E9700FC0969 /* CustomDialogStoryboardExampleUITests */,
 				938EFE4925673E9100FC0969 /* Products */,
+				F4AD8C288F8F2DFC7979459A /* Pods */,
+				40F759DDBE79447C0D9B8719 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,10 +163,23 @@
 		938EFE7B25673FFB00FC0969 /* Dialogs */ = {
 			isa = PBXGroup;
 			children = (
-				938EFE7D2567404C00FC0969 /* BaseDialog.xib */,
 				938EFE812567405D00FC0969 /* BaseDialog.swift */,
 			);
 			path = Dialogs;
+			sourceTree = "<group>";
+		};
+		F4AD8C288F8F2DFC7979459A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E768D1B1EADCA8029754469 /* Pods-CustomDialogStoryboardExample.debug.xcconfig */,
+				4B6F2AF59AFFCDEA16BF2B4A /* Pods-CustomDialogStoryboardExample.release.xcconfig */,
+				DE4CCAC36F415B270A947205 /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.debug.xcconfig */,
+				DC23FADA90EE6C75B40C079D /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.release.xcconfig */,
+				91CDB691F86D69CC11141D04 /* Pods-CustomDialogStoryboardExampleTests.debug.xcconfig */,
+				64FAD5B0D63CBC2F3FD1DB41 /* Pods-CustomDialogStoryboardExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938EFE7225673E9700FC0969 /* Build configuration list for PBXNativeTarget "CustomDialogStoryboardExample" */;
 			buildPhases = (
+				09AFAFEB66A227D4DCF37B21 /* [CP] Check Pods Manifest.lock */,
 				938EFE4425673E9100FC0969 /* Sources */,
 				938EFE4525673E9100FC0969 /* Frameworks */,
 				938EFE4625673E9100FC0969 /* Resources */,
@@ -170,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938EFE7525673E9700FC0969 /* Build configuration list for PBXNativeTarget "CustomDialogStoryboardExampleTests" */;
 			buildPhases = (
+				854FC1FD175AC257441D7FFB /* [CP] Check Pods Manifest.lock */,
 				938EFE5A25673E9700FC0969 /* Sources */,
 				938EFE5B25673E9700FC0969 /* Frameworks */,
 				938EFE5C25673E9700FC0969 /* Resources */,
@@ -188,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 938EFE7825673E9700FC0969 /* Build configuration list for PBXNativeTarget "CustomDialogStoryboardExampleUITests" */;
 			buildPhases = (
+				625C5913D841BE20AF71143E /* [CP] Check Pods Manifest.lock */,
 				938EFE6525673E9700FC0969 /* Sources */,
 				938EFE6625673E9700FC0969 /* Frameworks */,
 				938EFE6725673E9700FC0969 /* Resources */,
@@ -252,7 +291,6 @@
 			files = (
 				938EFE5825673E9600FC0969 /* LaunchScreen.storyboard in Resources */,
 				938EFE5525673E9600FC0969 /* Assets.xcassets in Resources */,
-				938EFE7E2567404C00FC0969 /* BaseDialog.xib in Resources */,
 				938EFE5325673E9100FC0969 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +299,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938EFE7F2567404C00FC0969 /* BaseDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +306,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938EFE802567404C00FC0969 /* BaseDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09AFAFEB66A227D4DCF37B21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDialogStoryboardExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		625C5913D841BE20AF71143E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854FC1FD175AC257441D7FFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDialogStoryboardExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		938EFE4425673E9100FC0969 /* Sources */ = {
@@ -456,6 +561,7 @@
 		};
 		938EFE7325673E9700FC0969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E768D1B1EADCA8029754469 /* Pods-CustomDialogStoryboardExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +580,7 @@
 		};
 		938EFE7425673E9700FC0969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6F2AF59AFFCDEA16BF2B4A /* Pods-CustomDialogStoryboardExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +599,7 @@
 		};
 		938EFE7625673E9700FC0969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CDB691F86D69CC11141D04 /* Pods-CustomDialogStoryboardExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +622,7 @@
 		};
 		938EFE7725673E9700FC0969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FAD5B0D63CBC2F3FD1DB41 /* Pods-CustomDialogStoryboardExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +645,7 @@
 		};
 		938EFE7925673E9700FC0969 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4CCAC36F415B270A947205 /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +666,7 @@
 		};
 		938EFE7A25673E9700FC0969 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC23FADA90EE6C75B40C079D /* Pods-CustomDialogStoryboardExample-CustomDialogStoryboardExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

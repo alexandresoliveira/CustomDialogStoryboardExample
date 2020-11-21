@@ -13,11 +13,10 @@ class BaseDialog: UIView {
     
     static let shared = BaseDialog()
     
-    let baseDialogView = UIView()
+    private let dialog: UIView = UIView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        Bundle.main.loadNibNamed("BaseDialog", owner: self, options: nil)
         commonInit()
     }
     
@@ -32,29 +31,30 @@ class BaseDialog: UIView {
             width: UIScreen.main.bounds.width,
             height: UIScreen.main.bounds.height)
         self.autoresizingMask = [.flexibleHeight, .flexibleWidth]
-        self.backgroundColor = .black
-        self.alpha = 0.4
+        self.backgroundColor = UIColor.black.withAlphaComponent(0.4)
         self.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismiss)))
+        
+        dialog.backgroundColor = .white
+        
+        self.addSubview(dialog)
+        
+        dialog.translatesAutoresizingMaskIntoConstraints = false
+        dialog.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
+        dialog.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
+        dialog.widthAnchor.constraint(equalToConstant: 280).isActive = true
     }
     
     func showAlert(view: UIView) {
-        baseDialogView.backgroundColor = .white
         
-        self.addSubview(baseDialogView)
-        
-        baseDialogView.translatesAutoresizingMaskIntoConstraints = false
-        baseDialogView.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
-        baseDialogView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-        baseDialogView.widthAnchor.constraint(equalToConstant: 280).isActive = true
-        
-        baseDialogView.addSubview(view)
+        dialog.addSubview(view)
         
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.topAnchor.constraint(equalTo: baseDialogView.topAnchor, constant: 0).isActive = true
-        view.trailingAnchor.constraint(equalTo: baseDialogView.trailingAnchor, constant: 0).isActive = true
-        view.bottomAnchor.constraint(equalTo: baseDialogView.bottomAnchor, constant: 0).isActive = true
-        view.leadingAnchor.constraint(equalTo: baseDialogView.leadingAnchor, constant: 0).isActive = true
+        view.topAnchor.constraint(equalTo: dialog.topAnchor, constant: 0).isActive = true
+        view.trailingAnchor.constraint(equalTo: dialog.trailingAnchor, constant: 0).isActive = true
+        view.bottomAnchor.constraint(equalTo: dialog.bottomAnchor, constant: 0).isActive = true
+        view.leadingAnchor.constraint(equalTo: dialog.leadingAnchor, constant: 0).isActive = true
         
+//        UIApplication.shared.windows.first { $0.isKeyWindow }
         UIApplication.shared.keyWindow?.addSubview(self)
     }
     
